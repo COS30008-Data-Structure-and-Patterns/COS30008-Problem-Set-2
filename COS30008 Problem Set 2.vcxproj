@@ -131,6 +131,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Character.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\SkillList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Character.h" />
+    <ClInclude Include="include\SkillList.h" />
+    <ClInclude Include="include\SkillNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

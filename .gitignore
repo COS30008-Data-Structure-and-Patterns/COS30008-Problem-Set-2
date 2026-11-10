@@ -1,6 +1,8 @@
 # Visual Studio Code
 .vscode/
+.vscode-test/
 *.code-workspace
+.history/
 
 # Visual Studio 2022 user data and caches
 .vs/
@@ -10,7 +12,14 @@
 *.sln.docstates
 *.VC.db
 *.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.opendb
+*.sdf
+*.opensdf
+*.ncb
 ipch/
+Generated Files/
 
 # Visual Studio build outputs
 [Dd]ebug/
@@ -25,18 +34,36 @@ out/
 *.ilk
 *.pdb
 *.idb
+*.obj
+*.pch
+*.res
+*.aps
 *.iobj
 *.ipdb
 *.tlog
 *.lastbuildstate
+*.buildlog
 *.log
 *.exe
 *.dll
 *.lib
 *.exp
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
 
 # JetBrains IDEs
 .idea/
+.fleet/
 *.iml
 *.iws
 *.ipr
